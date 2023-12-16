@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.project-item {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.project-name {
+  padding-left: 10px;
+}
+
+.project-title {
+  display: flex;
+  align-items: 'center';
+  padding: '0px 15px'
+}
+
+
+
+[data-testid="side-navigation"] {
+  background-color: none !important; /* Cambia este color al que desees */
+}
+
+[data-testid="seccions" ]  button.css-1ic5nr4{
+  background: none !important; 
+}
+
+[data-testid="seccions" ]  li :hover{
+  border-radius: 0px;
+  background: #ebecf0 !important; /* Cambia este color al que desees */
+}
