@@ -50,7 +50,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
             name: "mf_proyectos", // Modificar -> listo
             filename: "remoteEntry.js",
             exposes: {
-              "./MiComponente": "./src/components/MiComponente", // Ejemplo, aqui se exponen los componentes
+              "./Proyectos": "./src/components/MiComponente", // Ejemplo, aqui se exponen los componentes
+              "./App": "./src/App"
             },
             shared: {
               ...dependencies,
